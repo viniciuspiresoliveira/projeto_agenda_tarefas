@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 16px;
+    font-weight: bold;
+    margin: 5px 0;
+    text-shadow: 2px 2px #cdcccc;
+    color: rgb(61, 104, 131);
+}
+
+.container {    
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    max-width: 800px;
+    margin:0 auto;
+}
+
+.borracha {
+    display:flex;
+    justify-content:center;
+}
+
+.borracha img {
+    height: 20px;
+}
+
+#botao-limpar {
+    margin-left: 5px;
+    border: none;
+    background-color: transparent;
+    color: #cf605e;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#botao-limpar:hover {
+    text-decoration: underline;
+}
+
+.caderno {
+    background-image: url(./images/paper.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 100%;
+    max-width: 800px;
+    height: 280px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form {
+    margin-top: 80px;
+}
+
+form button {
+    margin-bottom: 5px;
+    background-color: #57e3b9;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    box-shadow: 2px 2px #b4b4b4;
+    cursor: pointer;
+}
+
+li {
+    text-align: center;
+}
+
+ul li {
+    max-width: 100%;
+    list-style: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+li img {
+    width: 16px;
+    margin-right: 5px;
+}
